@@ -1,0 +1,21 @@
+.FriendList {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.FriendListItem {
+  width: 64px;
+  border: 2px solid #00000020;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.FriendListItem:hover {
+  transform: scale(1.03);
+}
