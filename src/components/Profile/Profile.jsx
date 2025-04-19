@@ -1,11 +1,11 @@
 import css from './Profile.module.css';
 
-export default function Profile({ username, tag, location, avatar, stats }) {
+export default function Profile({ name, tag, location, avatar, stats }) {
   return (
     <div className={css.profile}>
       <div className={css.profileBiggerWrapper}>
         <img className={css.profileImg} src={avatar} alt="User avatar" />
-        <p className={css.profileTitle}>{username}</p>
+        <p className={css.profileTitle}>{name}</p>
         <p className={css.profileSubt}>{tag}</p>
         <p className={css.profileSubt}>{location}</p>
       </div>

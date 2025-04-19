@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 const Online = 'Online';
 const Offline = 'Offline';
 
-export default function FriendListItem({ avatar, name, isOnline}) {
+export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <>
       <img

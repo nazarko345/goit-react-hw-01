@@ -5,7 +5,7 @@ import TransactionHistory from '../TransactionHistory/TransactionHistory.jsx';
 
 import user from '../../userData.json';
 import friends from '../../friends.json';
-import transactions from '../../transactions.json';
+import items from '../../transactions.json';
 
 export default function App() {
   return (
@@ -14,12 +14,12 @@ export default function App() {
         name={user.username}
         tag={user.tag}
         location={user.location}
-        image={user.avatar}
+        avatar={user.avatar}
         stats={user.stats}
       />
       <FriendList friends={friends} />
-      
-      <TransactionHistory items={transactions} />
+
+      <TransactionHistory items={items} />
     </div>
   );
 }
